@@ -1,0 +1,445 @@
+!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Menu</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+     <script src="https://unpkg.com/scrollreveal" charset="utf-8"></script>
+     <link rel="stylesheet" href="styles-menu.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav" id="navbar">
+          <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+          </div>
+          <a href="index.html" class="logo"></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link present">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="reservations.html" class="nav-link">Make a Reservation</a>
+            <li class="nav-item">
+              <a href="contact-us.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HEADER ENDS-->
+    <!--HERO BEGINS-->
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <h2 class="sub-headline">
+         <span class="first-letter">Discover
+         </h2>
+         <h1 class="headline">Our Menu</h1>
+         <div class="headline-description">
+           <div class="separator">
+             <div class="line line-left"></div>
+             <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+             <div class="line line-right"></div>
+            </div>
+          </div>
+          <div class="container1">
+            <div class="row-menu">
+              <div class="col-md-12 text-center" id="menu-filters">
+                <ul>
+                  <li><a  href="#appetizers" class="btn cta-btn">Appetizers</a></li>
+                  <li><a  href="#mains" class="btn cta-btn">Mains</a></li>
+                  <li><a  href="#sushi" class="btn cta-btn">Sushi</a></li>
+                  <li><a  href="#desserts" class="btn cta-btn" >Desserts</a></li>
+                  <li><a  href="#teas" class="btn cta-btn">Teas</a></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--HERO ENDS-->
+    <!--APPETIZERS BEGINS-->
+
+    <section class="our-story" id="appetizers">
+      <div class="container">
+        <div class="restaurant-info">
+          <div class="restaurant-description padding-right animate-left">
+            <div class="global-headline">
+              <h2>
+               <span class="first-letter1">Appetizers</span>
+               </h2>
+                <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+            </div>
+            <p>Begin your meal with a selection from the appetizers menu that is sure to leave you wanting for more.</p>
+          </div>
+          <div class="image-group pictures padding-right animate-right">
+            <img src="https://i.pinimg.com/474x/8d/09/9d/8d099d3b4b433d2aa556f69091d2fff5.jpg" alt="">
+            <img src="https://i.pinimg.com/474x/a2/c5/78/a2c57829e6b2dc3bf573bd5e3f9ca822.jpg" alt="">
+            <img src="https://i.pinimg.com/474x/30/c1/81/30c181c1ae3a2a86600235e5b6b58084.jpg" alt="">
+            <img src="https://i.pinimg.com/474x/e1/9d/52/e19d528616c209987743368235e642bf.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="app-menu">
+    <div id="restaurant-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="menu-section">
+            <div class="menu-item">
+              <div class="menu-item-name">Vegetable Gyoza</div>
+              <div class="menu-item-price">₹245</div>
+              <div class="menu-item-description" style="font-style:italic">Dumplings stuffed with a delicious mix of tofu, cabbage, carrots, and shiitake mushrooms served with a chilli gyoza sauce. Serves two.</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name">Harumaki</div>
+              <div class="menu-item-price">₹245</div>
+              <div class="menu-item-description" style="font-style:italic">Deep fried rolls stuffed with sweet chilli sauce, bean sprouts, cooked prawns, avocado, carrots. Serves two</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name">Chawanmushi</div>
+              <div class="menu-item-price">₹245</div>
+              <div class="menu-item-description" style="font-style:italic">Hot steamed egg custard flavored with dashi, lily root and boiled shrimp dashi shikate mushrooms.Serves one.</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name">Chicken Yakitori</div>
+              <div class="menu-item-price">₹245</div>
+              <div class="menu-item-description" style="font-style:italic">Tender pieces of chicken on wooden skewers and barbecued over an open flame with a sweet, soy based sauce. Serves two.</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name">Atsuage</div>
+              <div class="menu-item-price">₹245</div>
+              <div class="menu-item-description" style="font-style:italic">Slices of silken tofu fried until golden brown, puffy, and slightly crunchy on the exterior, served with a sweet dipping sauce. Serves two.</div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-name">Ikayaki</div>
+              <div class="menu-item-price">₹245</div>
+              <div class="menu-item-description" style="font-style:italic">Four servings of tender grilled squid accompanied with teriyaki sauce and a fresh cucumber salad. Serves two.</div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--MAINS BEGINS-->
+
+  <section class="our-story" id="mains">
+    <div class="container">
+      <div class="restaurant-info">
+        <div class="restaurant-description padding-right animate-left">
+          <div class="global-headline">
+            <h2>
+             <span class="first-letter1">Mains</span>
+             </h2>
+              <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+          </div>
+          <p>Browse our hearty selection of authentic Japanese main courses.</p>
+        </div>
+        <div class="image-group pictures padding-right animate-right">
+          <img src="https://i.pinimg.com/474x/a8/a9/01/a8a901aee987d86a1fbf45266e4da36e.jpg" alt="">
+          <img src="https://www.foxandbriar.com/wp-content/uploads/2016/02/Easy-Chicken-Ramen-6.jpg" alt="">
+          <img src="https://media.istockphoto.com/photos/delicious-shrimp-in-tempura-with-sweet-and-sour-sauce-picture-id629614394?k=6&m=629614394&s=612x612&w=0&h=arSJqoEJrmzhbyCCmDDlUJommPAdizI9RkzB5C-KMX0=" alt="">
+          <img src="https://i.pinimg.com/564x/4a/58/b8/4a58b87e19dec926a24a1400416be1c7.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mains-menu">
+  <div id="restaurant-menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name">Shoyu Ramen</div>
+            <div class="menu-item-price">₹399</div>
+            <div class="menu-item-description" style="font-style:italic">Fresh ramen noodles, fish cakes, chicken, soy sauce, shiitake mushrooms, bamboo shoots topped with boiled eggs. Serves one-two.</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Oyakodon</div>
+            <div class="menu-item-price">₹399</div>
+            <div class="menu-item-description" style="font-style:italic">Onions, chicken, and egg simmered in an umami-rich dashi-based sauce, poured over a bowl of fluffy steamed rice. Serves one-two.</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Ebi Fry</div>
+            <div class="menu-item-price">₹399</div>
+            <div class="menu-item-description" style="font-style:italic">Fried tempura shrimp on a bed of steamed rice and a miso based curry. Serves one-two.</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Okonomiyaki</div>
+            <div class="menu-item-price">₹399</div>
+            <div class="menu-item-description" style="font-style:italic">Savoury pancakes loaded with shredded cabbage and scallions, topped with chicken and sizzling Okonomiyaki sauce. Serves one-two.</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Teriyaki Yellowtail</div>
+            <div class="menu-item-price">₹399</div>
+            <div class="menu-item-description" style="font-style:italic">Steamed Yellowtail fish served with a sweet and sour teriyaki sauce. Serves one-two.</div>
+          </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!--MAINS ENDS-->
+
+<!--SUSHI BEGINS-->
+
+<section class="our-story" id="sushi">
+  <div class="container">
+    <div class="restaurant-info">
+      <div class="restaurant-description padding-right animate-left">
+        <div class="global-headline">
+          <h2>
+           <span class="first-letter1">Sushi</span>
+           </h2>
+            <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+        </div>
+        <p>The freshest sashimi paired umami flavours.</p>
+      </div>
+      <div class="image-group pictures padding-right animate-right">
+        <img src="https://i.pinimg.com/474x/a1/40/ea/a140ea17ead9861463eeaae729e89677.jpg" alt="">
+        <img src="https://i.pinimg.com/474x/0a/81/04/0a81045c180bd45e4ab5110f5a6a5054.jpg" alt="">
+        <img src="https://www.thegreatcoursesdaily.com/wp-content/uploads/2017/08/Japanese-food.jpg" alt="">
+        <img src="https://i.pinimg.com/474x/98/45/b8/9845b85d183a5ad0808eecb6ecf426fd.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sushi-menu">
+<div id="restaurant-menu">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <div class="menu-section">
+        <div class="menu-item">
+          <div class="menu-item-name">Uramaki</div>
+          <div class="menu-item-price">₹245</div>
+          <div class="menu-item-description" style="font-style:italic">Salmon, prawn fresh veg and mayo wrapped in rice. 4 pieces.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Temaki</div>
+          <div class="menu-item-price">₹245</div>
+          <div class="menu-item-description" style="font-style:italic">Rice, salmon and fresh veg wrapped in nori. Serves two.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Tempura Shrimp and Veg</div>
+          <div class="menu-item-price">₹345</div>
+          <div class="menu-item-description" style="font-style:italic">Tempura-battered fresh lotus root, mushroom caps, brocolli and shrimp deep fried. Serves two.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Nigiri Platter</div>
+          <div class="menu-item-price">₹445</div>
+          <div class="menu-item-description" style="font-style:italic">Thinly sliced unagi, tuna,salmon, prawns, fish row over pressed vinegared rice. Serves two.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Assorted Sushi</div>
+          <div class="menu-item-price">₹745</div>
+          <div class="menu-item-description" style="font-style:italic">Platter of uramaki rolls(3), nigiri(4) and sashimi(4), temaki(2), tempura shrimp (2)</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Kaisendon</div>
+          <div class="menu-item-price">₹445</div>
+          <div class="menu-item-description" style="font-style:italic">Assorted raw sashimi-tuna, deep-water shrimps, scallops, uni, crab, marinated salmon roe topped with toasted nori seaweed, pickled ginger placed on a bed of steamy rice and drizzled with wasabi-laced soy sauce. Serves one-two.</div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</section>
+
+<!--SUSHI ENDS-->
+
+<!--DESSERTS BEGINS-->
+
+<section class="our-story" id="desserts">
+  <div class="container">
+    <div class="restaurant-info">
+      <div class="restaurant-description padding-right animate-left">
+        <div class="global-headline">
+          <h2>
+           <span class="first-letter1">Desserts</span>
+           </h2>
+            <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+        </div>
+        <p class="food-description">Authentic Japanese desserts to complete your meal.</p>
+      </div>
+      <div class="image-group pictures padding-right animate-right">
+        <img src="https://i.pinimg.com/474x/de/a7/81/dea781d0ccaec6d21b591f1e90786820.jpg" alt="">
+        <img src="https://i.pinimg.com/474x/b7/99/83/b79983dc3e6705cf22caec95846bce68.jpg" alt="">
+        <img src="https://i.pinimg.com/474x/94/a8/fa/94a8fa839b2922b165efbb90c4aaa251.jpg" alt="">
+        <img src="https://i.pinimg.com/474x/1e/63/df/1e63df6cda280feade07cf780d17fd7b.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="desserts-menu">
+<div id="restaurant-menu">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <div class="menu-section">
+        <div class="menu-item">
+          <div class="menu-item-name">Anmitsu</div>
+          <div class="menu-item-price">₹225</div>
+          <div class="menu-item-description" style="font-style:italic">Jelly parfait served with peaches, pineapples, cherries and satsuma orange, topped with mochi, ice cream. Serves one.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Mitarashi Dango</div>
+          <div class="menu-item-price">₹225</div>
+          <div class="menu-item-description" style="font-style:italic">Sweet rice dumplings skewered onto sticks in drizzled with a sweet soy sauce glaze. 2 pieces.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Dorayaki</div>
+          <div class="menu-item-price">₹225</div>
+          <div class="menu-item-description" style="font-style:italic">Castella pancakes with a sweet bean paste filling. 2 pieces.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Purin</div>
+          <div class="menu-item-price">₹215</div>
+          <div class="menu-item-description" style="font-style:italic">Caramel custard pudding. Serves one.</div>
+         </div>
+       </div>
+     </div>
+    </div>
+   </div>
+  </div>
+</section>
+
+<!--TEAS BEGINSs-->
+
+<section class="our-story" id="teas">
+  <div class="container">
+    <div class="restaurant-info">
+      <div class="restaurant-description padding-right animate-left">
+        <div class="global-headline">
+          <h2>
+           <span class="first-letter1">Teas</span>
+           </h2>
+            <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+        </div>
+        <p>Cleanse your palate with our specialised tea menu, which brings together various brews of Japan in a celebration of tea.</p>
+      </div>
+      <div class="image-group">
+        <img class="animate-top"src="https://i.pinimg.com/474x/6d/25/bb/6d25bb857efc50000977ac701d58e07b.jpg" alt="">
+        <img class="animate-bottom" src="https://i.pinimg.com/474x/e4/a6/db/e4a6db2f83244ce7cdd51b6b81cb32bb.jpg"alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="teas-menu">
+<div id="restaurant-menu">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <div class="menu-section">
+        <div class="menu-item">
+          <div class="menu-item-name">Sen Cha</div>
+          <div class="menu-item-price">₹125</div>
+          <div class="menu-item-description" style="font-style:italic">A refreshing steamed green tea made from small-leaf Camellia sinensis. Served hot or cold.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Koicha</div>
+          <div class="menu-item-price">₹145</div>
+          <div class="menu-item-description" style="font-style:italic">The ceremonial thick, syrupy matcha tea. Served hot.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Gyokuro</div>
+          <div class="menu-item-price">₹155</div>
+          <div class="menu-item-description" style="font-style:italic">Premium shaded green tea, from Japan.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Kukicha</div>
+          <div class="menu-item-price">₹125</div>
+          <div class="menu-item-description" style="font-style:italic">Japanese blend made of stems, stalks, and twigs.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Mughicha</div>
+          <div class="menu-item-price">₹145</div>
+          <div class="menu-item-description" style="font-style:italic">Roasted-grain-based infusion made from barley.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Hojicha</div>
+          <div class="menu-item-price">₹145</div>
+          <div class="menu-item-description" style="font-style:italic">Special brew of tea leaves roasted in a porcelain pot over charcoal.</div>
+        </div>
+       </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+<!--TEAS MENU-->
+
+
+<!--FOOTER BEGINS-->
+
+<footer id="footer">
+  <div class="containerfooter">
+    <div class="back-to-top">
+      <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    <div class="footer-content">
+      <div class="footer-content-about animate-up">
+        <h4 class="sub-headline-footer">About Chanoyu</h4>
+        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+      </div>
+      <div class="timing-container">
+        <div class="openings">Open Hours:</div>
+        <div class="openings"><span>Daily</span> 1 pm to 9 pm </div>
+      </div>
+      <div class="address">
+        <div class="openings">11/2/1 Street No 56</div>
+        <div class="openings"><span>Filmnagar</span></div>
+     </div>
+
+    <div class="footer-content-divider animate-bottom">
+     <div class="social-media">
+      <h4 class="followus1">FOLLOW US</h4>
+      <ul class="social-icons">
+       <li>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+       </li>
+       <li>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+       </li>
+       <li>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+
+    </div>
+  </div>
+ </div>
+</footer>
+
+
+<!--FOOTER ENDS-->
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
